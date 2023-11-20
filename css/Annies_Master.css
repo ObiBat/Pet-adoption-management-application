@@ -1,0 +1,435 @@
+.pet {
+  border: 5px;
+}
+
+
+/* General Styles */
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #D1CF99;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* Navigation Styles */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Responsive Navigation Styles */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+  nav li a {
+    padding: 10px 20px;
+  }
+
+  .pet {
+  width: 100%;
+}
+
+}
+
+
+header {
+  text-align: center;
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* Form Styles */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* General Links */
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+img.logo {
+  width: 7%;
+}
+
+footer {
+  text-align: center;
+}
+
+
+/* Pet Listing Styles */
+.pet-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pet {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.pet img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.pet h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.pet p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.pet .btn-view-details {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pet .btn-view-details:hover {
+  background-color: #666;
+}
+
+/* Search Form Styles */
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-form label {
+  margin-right: 10px;
+}
+
+.search-form input[type="text"],
+.search-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.search-form input[type="submit"] {
+  padding: 8px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Indie Flower', cursive;
+}
+
+.search-form input[type="submit"]:hover {
+  background-color: #666;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .search-form {
+    flex-direction: column;
+  }
+
+  .search-form label {
+    margin-bottom: 10px;
+  }
+
+  .search-form input[type="text"],
+  .search-form select {
+    width: 100%;
+  }
+}
+
+
+
+.error-message {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+
+
+
+.container_details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.container_details h2 {
+  margin-top: 0;
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+
+.container_detailsform {
+  text-align: left;
+}
+
+.container_details label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.container_details input[type="text"], textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Indie Flower', cursive;
+  background-color: #E0E0E0;
+}
+
+.container_details input[type="submit"] {
+  padding: 8px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+
+}
+.center {
+  text-align: center;
+}
+
+.container_details img {
+
+  padding: 10px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+
+.container_details input[type="submit"]:hover {
+  background-color: White;
+  font-family: 'Indie Flower', cursive;
+  color: black;
+}
+.login_form {
+  margin: auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login_form form {
+  text-align: left;
+}
+
+.login_form input[type="text"], input[type="password"], select, input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Indie Flower', cursive;
+  background-color: #E0E0E0;
+}
+
+.login_form input[type="submit"] {
+  margin-top: 20px;
+  padding: 8px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+
+}
+
+.login_form input[type="submit"]:hover {
+  background-color: White;
+  font-family: 'Indie Flower', cursive;
+  color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+}
+
+.button-container button:hover {
+    background-color: White;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+.small_photo {
+  width: 200px;
+}
+
+.table {
+  width: 800px;
+  margin: auto;
+}
+
+.table input[type="number"], select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Indie Flower', cursive;
+  background-color: #E0E0E0;
+}
+
+.table input[type="submit"] {
+  margin-top: 20px;
+  padding: 8px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+
+}
+
+.table input[type="submit"]:hover {
+  background-color: White;
+  font-family: 'Indie Flower', cursive;
+  color: black;
+}

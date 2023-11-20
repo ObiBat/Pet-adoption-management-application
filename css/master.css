@@ -1,0 +1,204 @@
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  color: black;
+}
+header {
+  background-color: #0A1633;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 15px;
+}
+h1 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 270%;
+  padding-bottom: 30px;
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 200%;
+  color: white;
+  margin: 0;
+}
+
+footer {
+  background-color: #0A1633;
+  color: white;
+  font-size: 80%;
+  font-family: 'Merriweather', Georgia, serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+article {
+padding-left: 100px;
+padding-right: 100px;
+margin-bottom: 50px;
+
+}
+
+section {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 50%;
+  padding-bottom:20px;
+}
+
+aside {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+h3 {
+  color: #224baa;
+  font-weight: lighter;
+  font-size: 160%;
+  font-style: italic;
+  margin: 0;
+}
+
+h4 {
+  color: #224baa;
+  font-weight: lighter;
+  font-size: 140%;
+  margin: 0;
+}
+
+h5 {
+  color: #224baa;
+  margin: 0;
+}
+
+h6 {
+  color: #224baa;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p.beginning {
+  margin-top: 5px;
+}
+
+ol,ul {
+  line-height: 2;
+  padding: 0;
+ }
+
+ol > li {
+  margin-left: 40px;
+}
+
+
+ul.links {
+  line-height: 3;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside > ul {
+  font-size: small;
+}
+
+details > ul {
+  margin-left: 40px;
+}
+
+details > dl {
+  margin-left: 20px;
+}
+
+dl > dt {
+  color: #1d4195;
+  font-style: italic;
+  padding-top: 10px;
+  margin: 0;
+}
+
+dt.odd {
+  background-color: #f0f0f0;
+}
+
+dl > dd {
+  padding-left: 100px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+dd.odd {
+  background-color: #f0f0f0;
+}
+
+a {
+  font-style: italic;
+  color: black;
+
+}
+
+a.external {
+  text-decoration: dashed underline #224baa;
+}
+
+a.external:hover {
+  font-style: normal;
+  color: #224baa;
+}
+
+li > a {
+  color: #1d4195;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 0px;
+}
+
+li > a:hover {
+  background-color: #f0f0f0;
+}
+
+figure {
+  margin: 0;
+}
+
+figure > figcaption {
+  font-style: italic;
+  font-size: small;
+  color: #224baa;
+}
+
+figcaption.youtube {
+  color: #990000;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 1px;
+  color:#0A1633;
+}
+
+details {
+  margin-top: 20px;
+}
+
+summary {
+  color: #224baa;
+  font-size: 140%;
+}
+
+
+
+/* https://www.w3schools.com/cssref/css_selectors.php */
